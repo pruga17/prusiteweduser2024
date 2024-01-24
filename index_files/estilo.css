@@ -1,0 +1,193 @@
+body {
+    background-image: url("https://i.postimg.cc/JzyPDcwT/Captura-de-pantalla-2023-08-26-154034.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url("https://i.postimg.cc/JzyPDcwT/Captura-de-pantalla-2023-08-26-154034.png");
+        height: auto; /* Ajustar la altura automáticamente en pantallas pequeñas */
+    }
+}
+
+.container{
+background: white;
+border: 3px solid white; 
+border-radius: 10px;
+margin:  20px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+width: 430px;
+
+}
+
+#container2{
+
+background: white;
+margin: 80px 450px 10px;
+border: 3px solid white; 
+width: 430px;
+padding: 7px 3px 35px 3px;
+}
+
+img{
+	margin: 30px 50px 0px;
+
+}
+
+h2{
+
+margin:  0px 150px 10px 50px ; 
+font-size: 24px;
+font-family: "Segoe UI";
+color:#1b1b1b;
+font-weight: 600;
+
+}
+
+input[type=email]{
+    width: 320px;
+    padding: 10px 14px;
+    margin: 8px 45px;
+   	font-family: "Segoe UI";
+	font-size: 15px;
+	border: none;
+	border-bottom: 1px solid #0067b8;
+	outline:none;
+	padding-left: 0px;
+    
+    
+}
+
+#clave{
+	width: 320px;
+    padding: 10px 14px;
+    margin: 8px 45px;
+   	font-family: "Segoe UI";
+	font-size:  15px;
+	border: none;
+	border-bottom: 1px  solid #0067b8;
+	outline:none;
+	padding-left: 0;
+}
+
+.pin{
+	width: 120px;
+    padding: 10px 14px;
+    margin: 8px 260px;
+    box-sizing: border-box;
+   	font-family: "Segoe UI";
+	font-size: 12px;
+	padding-left: 15px;
+	outline:none;
+
+}
+
+a{
+		width: 0px; 
+		padding: 8px 30px;
+		margin: 15px 250px 80px 265px;
+		color: white;
+		background: #396FDC;
+		border: 0px solid #396FDC ;
+		font-family: "Segoe UI";
+		font-size: 16px;
+		cursor: pointer;
+		outline:none;
+		text-decoration: none;
+
+}
+
+input[type=submit]{
+		width: 150px; 
+		padding: 7px;
+		margin: 5px 230px 30px;
+		color: white;
+		background: #396FDC;
+		border: 0px solid #396FDC ;
+		font-family: "Segoe UI";
+		font-size: 16px;
+		cursor: pointer;
+		outline:none;
+}
+
+
+small{
+ margin: 0px 65px;
+ font-family: "Segoe UI";
+ color: #0067b8;
+ font-size: 13px;
+ text-decoration: none;
+ cursor: pointer;
+ 
+}
+
+h4{
+ margin: 0px 65px;
+ font-family: "Segoe UI";
+ color: #75C623;
+ font-size: 16px;
+ text-decoration: none;
+ cursor: pointer;
+ 
+}
+
+
+b:hover{
+	color: #ccc;
+	text-decoration: underline;
+	
+}
+
+h3:hover{
+	text-decoration: underline;
+	
+}
+
+
+h5:hover{
+	text-decoration: underline;
+	
+}
+
+div{
+	position: absolute;
+	margin: -15px 0px 150px 175px;
+}
+
+h3{
+	color: #000;
+    font-size: 12px;
+    line-height: 28px;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 20% 0px 0px 1115px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+h5{
+	color: #000;
+    font-size: 12px;
+    line-height: none;
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
+
+}
